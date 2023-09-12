@@ -1,5 +1,6 @@
 #!/bash/bin
 
+# stage of execution taken as input from console
 STAGE=$1
 
 if (($STAGE == 3)); then

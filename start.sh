@@ -1,6 +1,10 @@
 #!/bin/bash
 
+
+# remove previous results 
 rm -rf results
+
+# create new results directory
 mkdir results
 
 for i in `ls projects`;
